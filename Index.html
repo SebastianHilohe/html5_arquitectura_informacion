@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Andrei Sebastian Hilohe" />
+    <link
+      rel="shortcut icon"
+      href="https://logodownload.org/wp-content/uploads/2016/03/real-madrid-logo-0.png"
+      type="image/x-icon"
+    />
+    <title>Web RM</title>
+  </head>
+  <body style="background-color: rgb(255, 240, 221)">
+    <header style="border-bottom: 1px solid black; background-color: white">
+      <img
+        src="https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--515a8f0b-15ae-4a38-ac79-bc021775b1d5/FOTO_ESCUDO_COMUNICADO_OFICIAL.app.webp?preferwebp=true&width=768"
+        alt="Logo Real Madrid"
+        title="Logo Real Madrid"
+        height="40"
+      />
+      <img
+        src="https://publish-p47754-e237306.adobeaemcloud.com/content/dam/portals/realmadrid-com/es-es/core-content/assemblies/header/logos/parche-15-ucl.app.svg?$Mobile$"
+        alt="Logo Champions"
+        height="40"
+        title="Logo Champions"
+      />
+
+      <img
+        src="https://publish-p47754-e237306.adobeaemcloud.com/content/dam/common/statics/public-content/sponsor/football/emirates_gray.app.svg?$Mobile$&wid=57"
+        alt="Logo Emirates"
+        height="40"
+        title="Logo Emirates"
+        style="float: right"
+      />
+    </header>
+    <main>
+      <h1 style="text-align: center">Web Real Madrid</h1>
+      <article>
+        <h2>Información sobre el club</h2>
+        <section style="width: 48%; vertical-align: top; display: inline-block">
+          <h3 style="text-align: center">Noticias</h3>
+          <p>
+            Estas son algunos links que llevan a paginas de noticias sobre el
+            real madrid:
+          </p>
+          <strong>Links</strong>
+          <nav>
+            <ul>
+              <li><a href="https://www.marca.com/">Noticias marca</a></li>
+              <li>
+                <a href="https://www.realmadrid.com/es-ES/noticias"
+                  >Noticias Real Madrid</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://as.com/baloncesto/euroliga/barcelona-real-madrid-horario-tv-y-donde-ver-la-euroliga-2024-25-n/"
+                  >Noticias Real Madrid Baloncesto</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <section style="vertical-align: top; width: 48%; display: inline-block">
+          <h3 style="text-align: center">Web</h3>
+          <p>La tienda oficial del Real Madrid CF</p>
+          <strong>Links</strong>
+          <nav>
+            <ul>
+              <li>
+                <a href="https://www.realmadrid.com/es-ES/socios">Socios</a>
+              </li>
+              <li>
+                <a
+                  href="https://madridistas.com/es-ES/madridistas/landing?language=es-ES"
+                  >Madridistas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.realmadrid.com/es-ES/entradas?filter-tickets=vip;general&filter-football=primer-equipo-masculino"
+                  >Entradas</a
+                >
+              </li>
+              <li>
+                <a href="https://www.realmadrid.com/sites/area-vip">Area VIP</a>
+              </li>
+              <li>
+                <a href="https://www.realmadrid.com/sites/tour-bernabeu"
+                  >Tour</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://shop.realmadrid.com/es-es?itm_campaign=rm_header_shop&utm_source=web&utm_medium=shop-links&utm_campaign=rm_header_shop&utm_content=shop"
+                  >Tienda</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </article>
+      <article>
+        <h2>Entradas</h2>
+        <section>
+          <h3>Palcos y Butacas VIP Temporada 2024/25</h3>
+          <form action="registro_informacion" method="post">
+            <fieldset style="width: 500px">
+              <legend>Socilitar Información</legend>
+              <label for="nombre" style="display: block">Nombre:</label>
+              <input
+                type="text"
+                id="nombre"
+                style="display: block; margin-bottom: 10px"
+              />
+              <label for="apellido" style="display: block">Apellido:</label>
+              <input
+                type="text"
+                id="apellido"
+                style="display: block; margin-bottom: 10px"
+              />
+              <label for="correo" style="display: block"
+                >Correo electrónico:</label
+              >
+              <input
+                type="email"
+                id="correo"
+                style="display: block; margin-bottom: 20px"
+              />
+              <select
+                name="conocer"
+                style="display: block; margin-bottom: 20px"
+              >
+                <option value="">¿Como nos ha conocido?</option>
+                <option value="Ifema">Ifema</option>
+                <option value="Estadio">Estadio</option>
+                <option value="Online">Online</option>
+                <option value="Otros">Otros</option>
+              </select>
+              <strong style="display: block; margin-bottom: 10px"
+                >Tengo interes en:</strong
+              >
+              <input type="radio" id="palcos" name="interes" value="palcos" />
+              <label for="palcos">Palcos</label>
+              <input type="radio" id="butacas" name="interes" value="butacas" />
+              <label for="butacas" style="margin-bottom: 20px"
+                >Butacas Premium</label
+              >
+              <label
+                for="descripcion"
+                style="display: block; margin-bottom: 10px"
+                >Comentarios</label
+              >
+              <textarea
+                style="display: block; margin-bottom: 30px"
+                id="descripcion"
+                rows="4"
+                cols="50"
+                placeholder="Comentarios (opcional)"
+                required
+                maxlength="250"
+              ></textarea>
+              <input
+                type="submit"
+                value="Enviar"
+                style="display: block; margin-left: auto; margin-right: auto"
+              />
+            </fieldset>
+          </form>
+        </section>
+      </article>
+    </main>
+    <footer
+      style="
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #f0f0f0;
+        padding: 10px;
+      "
+    >
+      <em>Real Madrid CF | EUTienda © 2024 Todos los derechos reservados.</em>
+    </footer>
+  </body>
+</html>
